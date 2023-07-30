@@ -8,6 +8,8 @@
   boot.loader.grub.enable = true;
 
   networking.hostName = "hematite";
+
+  # Advised by Linode, but might revisit later.
   networking.usePredictableInterfaceNames = false;
 
   # This value determines the NixOS release from which the default
