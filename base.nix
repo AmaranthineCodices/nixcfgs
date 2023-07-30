@@ -4,7 +4,7 @@
   nix.settings = {
     auto-allocate-uids = true;
     auto-optimise-store = true;
-    experimental-features = [ "flakes" "nix-command" "auto-allocate-uids" ];
+    experimental-features = [ "flakes" "nix-command" ];
     trusted-users = [ "@wheel" ];
   };
 
