@@ -4,6 +4,7 @@
   imports = [
     ../base.nix
     ./hardware-configuration.nix
+    ../linode.nix
   ];
 
   boot.loader.grub.enable = true;
